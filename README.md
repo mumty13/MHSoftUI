@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/MHSoftUI.svg?style=flat)](https://cocoapods.org/pods/MHSoftUI)
 [![Platform](https://img.shields.io/cocoapods/p/MHSoftUI.svg?style=flat)](https://cocoapods.org/pods/MHSoftUI)
 
+![](SoftUIGIF.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
