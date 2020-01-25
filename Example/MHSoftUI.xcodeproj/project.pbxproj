@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00DA0B95835E097260539231 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		00DA0B95835E097260539231 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		36C94C104FBDA3E41D2B28F6 /* Pods-MHSoftUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHSoftUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MHSoftUI_Tests/Pods-MHSoftUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F52CA9B7958566157E76B23 /* Pods-MHSoftUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHSoftUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-MHSoftUI_Example/Pods-MHSoftUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4DAB800979B82E796A3929D3 /* Pods-MHSoftUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHSoftUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-MHSoftUI_Tests/Pods-MHSoftUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		818B6915174C0289D866FE00 /* Pods_MHSoftUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHSoftUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		980104D1C45711B19F473FCB /* MHSoftUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MHSoftUI.podspec; path = ../MHSoftUI.podspec; sourceTree = "<group>"; };
+		980104D1C45711B19F473FCB /* MHSoftUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MHSoftUI.podspec; path = ../MHSoftUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D1AFC8F1C25F24CD806E3519 /* Pods-MHSoftUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHSoftUI_Example.release.xcconfig"; path = "Target Support Files/Pods-MHSoftUI_Example/Pods-MHSoftUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D969F054E3E8A02847251B14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D969F054E3E8A02847251B14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F02E76C83D779E47F45F4230 /* Pods_MHSoftUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHSoftUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				36C94C104FBDA3E41D2B28F6 /* Pods-MHSoftUI_Tests.debug.xcconfig */,
 				4DAB800979B82E796A3929D3 /* Pods-MHSoftUI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

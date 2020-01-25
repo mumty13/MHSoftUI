@@ -1,0 +1,16 @@
+PODS:
+  - MHSoftUI (0.1.0)
+
+DEPENDENCIES:
+  - MHSoftUI (from `../`)
+
+EXTERNAL SOURCES:
+  MHSoftUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MHSoftUI: 684e6330752b0ecfb9f8da3979fd17830d696b9b
+
+PODFILE CHECKSUM: d3e4dd4d09e9e997cfeac789315f8a2e0dd9da6d
+
+COCOAPODS: 1.9.0.beta.2

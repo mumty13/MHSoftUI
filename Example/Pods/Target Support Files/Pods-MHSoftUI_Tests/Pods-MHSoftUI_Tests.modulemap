@@ -1,0 +1,6 @@
+framework module Pods_MHSoftUI_Tests {
+  umbrella header "Pods-MHSoftUI_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
