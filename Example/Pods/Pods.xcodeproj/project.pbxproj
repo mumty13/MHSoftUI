@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0597F26D23DC57F4007675E8 /* UIView+SoftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597F26A23DC57F4007675E8 /* UIView+SoftUI.swift */; };
+		0597F26E23DC57F4007675E8 /* UIButton+SoftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597F26B23DC57F4007675E8 /* UIButton+SoftUI.swift */; };
 		20E8C8D2EAA93ED21E7A987A215693C9 /* Pods-MHSoftUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B046975CED5799164746BDEFC153B58A /* Pods-MHSoftUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D2DE94DC3FD9F3833CD59224E6D049B /* Pods-MHSoftUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D149307A91312D0633B80D6E7422449F /* Pods-MHSoftUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73739D14A45BECA0B038A425BFFF8E32 /* Pods-MHSoftUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6744B9F549DAE8214437BA20747EA8 /* Pods-MHSoftUI_Tests-dummy.m */; };
@@ -15,7 +17,6 @@
 		BC6CB6B613A08E899EAF4DACE2AE766F /* MHSoftUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5327D882922EE8BF7892DD23B4BAF9 /* MHSoftUI-dummy.m */; };
 		BCE9901D612197203F22E3950DE4604F /* Pods-MHSoftUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF58EC21941C75A54D7C7B1F8EC9E711 /* Pods-MHSoftUI_Example-dummy.m */; };
 		ED956399C9BBBC6145ADF5EAFF01C1B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F93664EFEE96802D922B049B3B383075 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD504E0F991C769D00C80D384709CE6 /* ReplaceMe.swift */; };
 		FE2CE70CA87A520C6B1B35F84227E7F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0597F26A23DC57F4007675E8 /* UIView+SoftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SoftUI.swift"; sourceTree = "<group>"; };
+		0597F26B23DC57F4007675E8 /* UIButton+SoftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+SoftUI.swift"; sourceTree = "<group>"; };
 		0C7F191683DFAF7CF5022F61641737F3 /* Pods-MHSoftUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MHSoftUI_Tests.modulemap"; sourceTree = "<group>"; };
 		150C67F1BCAF4216162DECB3906F24DC /* MHSoftUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHSoftUI-umbrella.h"; sourceTree = "<group>"; };
 		26999DB03E478F6C9EE84FE89AD516FD /* Pods-MHSoftUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHSoftUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -45,23 +48,22 @@
 		4A5327D882922EE8BF7892DD23B4BAF9 /* MHSoftUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MHSoftUI-dummy.m"; sourceTree = "<group>"; };
 		4BCB49F80103F250D86EE821A9389AC9 /* MHSoftUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHSoftUI-prefix.pch"; sourceTree = "<group>"; };
 		5CC734EA7B0CCBC3B57F55DDDA75EE3C /* MHSoftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHSoftUI.debug.xcconfig; sourceTree = "<group>"; };
-		5FCFC69F064FEA64DAB23B85EDC7910B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5FCFC69F064FEA64DAB23B85EDC7910B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		71099C05146A9561B595364F7CE65F93 /* Pods-MHSoftUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHSoftUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		714A45B72EAD98444CBD179F010C4B1D /* Pods-MHSoftUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHSoftUI_Example-Info.plist"; sourceTree = "<group>"; };
 		72FD5FF05F2672692FC32C4CA22A4FB0 /* Pods-MHSoftUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHSoftUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		73C334F88931206FF63C5BA3B4535154 /* MHSoftUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MHSoftUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7CE61F6B7410E50D8B88C8BBD0D0E560 /* MHSoftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MHSoftUI.framework; path = MHSoftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C334F88931206FF63C5BA3B4535154 /* MHSoftUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MHSoftUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7CE61F6B7410E50D8B88C8BBD0D0E560 /* MHSoftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHSoftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F6D592789C3E4F958A1FF347EA9793 /* Pods-MHSoftUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MHSoftUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		83382BC2365F7E885D349B7AB06EBDD9 /* MHSoftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHSoftUI.release.xcconfig; sourceTree = "<group>"; };
-		89F8B5C50398EC8450B4F34D5DB8E9D3 /* Pods_MHSoftUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MHSoftUI_Example.framework; path = "Pods-MHSoftUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91C782ED86EB195154329E98E8B1AF25 /* Pods_MHSoftUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MHSoftUI_Tests.framework; path = "Pods-MHSoftUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD504E0F991C769D00C80D384709CE6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MHSoftUI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89F8B5C50398EC8450B4F34D5DB8E9D3 /* Pods_MHSoftUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHSoftUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C782ED86EB195154329E98E8B1AF25 /* Pods_MHSoftUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHSoftUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9944976E1035B8A003DC8B2AED2FE8C /* Pods-MHSoftUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHSoftUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ACBC9BDE187F65AB47A4D58F958714C1 /* MHSoftUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MHSoftUI-Info.plist"; sourceTree = "<group>"; };
 		AEFF4D7A9FA2EAB83D2B5AC4C9BE3443 /* Pods-MHSoftUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MHSoftUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B046975CED5799164746BDEFC153B58A /* Pods-MHSoftUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MHSoftUI_Example-umbrella.h"; sourceTree = "<group>"; };
-		B2D5AE044D5C7BFC7CA55D914CFCA89E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B2D5AE044D5C7BFC7CA55D914CFCA89E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B8C9DD9118A663967AB320DECCA9AC91 /* Pods-MHSoftUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHSoftUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB25A16DBB1497A3C1A3C54ED1931539 /* MHSoftUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MHSoftUI.modulemap; sourceTree = "<group>"; };
 		D149307A91312D0633B80D6E7422449F /* Pods-MHSoftUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MHSoftUI_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -100,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0597F26923DC57C0007675E8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0597F26B23DC57F4007675E8 /* UIButton+SoftUI.swift */,
+				0597F26A23DC57F4007675E8 /* UIView+SoftUI.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		382E8D0243068E39484311132792D32A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +151,7 @@
 		8AC9E9EE5D7511B5BB03B1C6FA6C7CEF /* MHSoftUI */ = {
 			isa = PBXGroup;
 			children = (
-				9CD504E0F991C769D00C80D384709CE6 /* ReplaceMe.swift */,
+				0597F26923DC57C0007675E8 /* Source */,
 				7DE0EE123A8FAD053AE78D5026A0DC4D /* Pod */,
 				A00F1AC9B1BD548A31116CD1D9CBC440 /* Support Files */,
 			);
@@ -317,6 +328,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					BE60DBD9570ADE88CAA395D9BF7870B4 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,8 +383,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0597F26E23DC57F4007675E8 /* UIButton+SoftUI.swift in Sources */,
+				0597F26D23DC57F4007675E8 /* UIView+SoftUI.swift in Sources */,
 				BC6CB6B613A08E899EAF4DACE2AE766F /* MHSoftUI-dummy.m in Sources */,
-				F93664EFEE96802D922B049B3B383075 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +439,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MHSoftUI_Example/Pods-MHSoftUI_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MHSoftUI_Example/Pods-MHSoftUI_Example.modulemap";
@@ -455,7 +472,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MHSoftUI_Tests/Pods-MHSoftUI_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MHSoftUI_Tests/Pods-MHSoftUI_Tests.modulemap";
@@ -477,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83382BC2365F7E885D349B7AB06EBDD9 /* MHSoftUI.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -489,7 +507,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MHSoftUI/MHSoftUI-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MHSoftUI/MHSoftUI-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MHSoftUI/MHSoftUI.modulemap";
 				PRODUCT_MODULE_NAME = MHSoftUI;
@@ -497,7 +515,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -521,7 +539,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MHSoftUI_Tests/Pods-MHSoftUI_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MHSoftUI_Tests/Pods-MHSoftUI_Tests.modulemap";
@@ -586,13 +604,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -649,7 +666,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -678,7 +695,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MHSoftUI_Example/Pods-MHSoftUI_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MHSoftUI_Example/Pods-MHSoftUI_Example.modulemap";
@@ -700,6 +717,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CC734EA7B0CCBC3B57F55DDDA75EE3C /* MHSoftUI.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -712,7 +730,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MHSoftUI/MHSoftUI-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MHSoftUI/MHSoftUI-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MHSoftUI/MHSoftUI.modulemap";
 				PRODUCT_MODULE_NAME = MHSoftUI;
@@ -720,7 +738,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
