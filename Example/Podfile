@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MHSoftUI_Example' do
+  pod 'MHSoftUI', :path => '../'
+
+  target 'MHSoftUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
