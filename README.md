@@ -37,6 +37,9 @@ Simply call this method with your view object for standard SoftUI Effect:
 
 `myButton.addSoftUIEffectForButton()`
 
+## Important
+Must call these functions inside `viewDidAppear`, not `viewDidLoad`.
+
 ## Cutomization ##
 
 There are parameters to each method that will let you customize the effect of SoftUI:
