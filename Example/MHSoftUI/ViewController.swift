@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var stopButton: UIButton!
     @IBOutlet weak var likeButton: UIButton!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
         //It's important to have the same color (preferably lighter one) for both background and UI components
         self.view.backgroundColor = UIColor(red: 241/255, green: 243/255, blue: 246/255, alpha: 1.0)
@@ -29,7 +29,9 @@ class ViewController: UIViewController {
         
         //Adding SoftUI effect to UIButtons
         stopButton.addSoftUIEffectForButton()
+        //Customization1: no corner radius:
         likeButton.addSoftUIEffectForButton(cornerRadius: 0)
+        //Customization2: round button
         playButton.addSoftUIEffectForButton(cornerRadius: playButton.bounds.height/2)
         
     }
