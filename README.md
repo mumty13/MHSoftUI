@@ -28,6 +28,8 @@ It is prefered to choose a very light color for your controller's background and
 
 ## Usage
 
+Need to first `import MHSoftUI` where needed.
+
 #### For UIView: ####
 Simply call this method with your view object for standard SoftUI Effect:
 
