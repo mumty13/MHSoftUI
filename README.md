@@ -23,12 +23,16 @@ pod 'MHSoftUI'
 
 ## Requirements
 
-It is prefered to choose a very light color for your controller's background and the same color to your UI components, for example:
+1. Swift 5 or later
+2. Xcode 11 or later
+3. iOS 12 or later
+4. UIKit framework (not SwiftUI)
+5. It is prefered to choose a very light color for your controller's background and the same color to your UI components, for example:
 `self.view.backgroundColor = UIColor(red: 241/255, green: 243/255, blue: 246/255, alpha: 1.0)`
 
 ## Usage
 
-Need to first `import MHSoftUI` where needed.
+`import MHSoftUI` where needed.
 
 #### For UIView: ####
 Simply call this method with your view object for standard SoftUI Effect:
