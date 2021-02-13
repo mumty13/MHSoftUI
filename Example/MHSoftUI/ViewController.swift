@@ -13,9 +13,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var labelBackView: UIView!
     @IBOutlet weak var backgroundView: UIView!
-    @IBOutlet weak var playButton: UIButton!
-    @IBOutlet weak var stopButton: UIButton!
-    @IBOutlet weak var likeButton: UIButton!
+    @IBOutlet weak var playButton: MHSoftUIButton!
+    @IBOutlet weak var stopButton: MHSoftUIButton!
+    @IBOutlet weak var likeButton: MHSoftUIButton!
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)

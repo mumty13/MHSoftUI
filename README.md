@@ -1,6 +1,6 @@
 # MHSoftUI
 
-[![CI Status](https://img.shields.io/travis/Mumtaz Hussain/MHSoftUI.svg?style=flat)](https://travis-ci.org/Mumtaz Hussain/MHSoftUI)
+[![CI Status](https://img.shields.io/travis/Mumtaz Hussain/MHSoftUI.svg?style=flat)](https://travis-ci.org/MumtazHussain/MHSoftUI)
 [![Version](https://img.shields.io/cocoapods/v/MHSoftUI.svg?style=flat)](https://cocoapods.org/pods/MHSoftUI)
 [![License](https://img.shields.io/cocoapods/l/MHSoftUI.svg?style=flat)](https://cocoapods.org/pods/MHSoftUI)
 [![Platform](https://img.shields.io/cocoapods/p/MHSoftUI.svg?style=flat)](https://cocoapods.org/pods/MHSoftUI)
@@ -41,10 +41,12 @@ Simply call this method with your view object for standard SoftUI Effect:
 
 #### For UIButton: ####
 
+`let myButton = MHSoftUIButton()`
 `myButton.addSoftUIEffectForButton()`
 
 ## Important
-Must call these functions inside `viewDidAppear`, not `viewDidLoad`.
+1. Must call these functions inside `viewDidAppear`, not `viewDidLoad`.
+2. For button to animate, it is important to give it MHSoftUIButton class reference, which is a subclass of UIButton.
 
 ## Cutomization ##
 
