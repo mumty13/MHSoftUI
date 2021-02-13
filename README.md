@@ -1,6 +1,6 @@
 # MHSoftUI
 
-[![CI Status](https://img.shields.io/travis/Mumtaz Hussain/MHSoftUI.svg?style=flat)](https://travis-ci.org/MumtazHussain/MHSoftUI)
+[![CI Status](https://img.shields.io/travis/MumtazHussain/MHSoftUI.svg?style=flat)](https://travis-ci.org/MumtazHussain/MHSoftUI)
 [![Version](https://img.shields.io/cocoapods/v/MHSoftUI.svg?style=flat)](https://cocoapods.org/pods/MHSoftUI)
 [![License](https://img.shields.io/cocoapods/l/MHSoftUI.svg?style=flat)](https://cocoapods.org/pods/MHSoftUI)
 [![Platform](https://img.shields.io/cocoapods/p/MHSoftUI.svg?style=flat)](https://cocoapods.org/pods/MHSoftUI)
