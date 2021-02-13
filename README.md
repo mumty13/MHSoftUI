@@ -42,6 +42,7 @@ Simply call this method with your view object for standard SoftUI Effect:
 #### For UIButton: ####
 
 `let myButton = MHSoftUIButton()`
+
 `myButton.addSoftUIEffectForButton()`
 
 ## Important
