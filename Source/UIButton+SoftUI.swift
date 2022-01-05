@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MHSoftUIButton: UIButton {
+open class MHSoftUIButton: UIButton {
     
     override open var isHighlighted: Bool {
         didSet {
